@@ -50,9 +50,6 @@ export default class Feedback extends Component {
                 <Wrapper title="Please leave feedback">
         
                     <ActionsFeedback leaveFeedback={this.leaveFeedback}/>
-                {/* <button onClick={() => this.leaveFeedback("good")}>Good</button>
-                <button onClick={() => this.leaveFeedback("neutral")}>Neutral</button>
-                <button onClick={() => this.leaveFeedback("bad")}>Bad</button> */}
                 
                    
                 </Wrapper>
@@ -65,13 +62,6 @@ export default class Feedback extends Component {
                         total={total}
                         positivePercent={positivePercent}
                     />}
-                {/* <ul>
-                    <li>Good: {good}</li>
-                    <li>Neutral: {neutral}</li>
-                    <li>Bad: {bad}</li>
-                    <li>Total:</li>
-                    <li>Positive feedback:</li>
-                </ul> */}
                 </Wrapper>
                     </div>
                     

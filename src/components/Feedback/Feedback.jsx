@@ -27,9 +27,6 @@ export default class Feedback extends Component {
   }
  
  
-
-
-
       leaveFeedback = (typeFeedback) => {
         this.setState((prevState) => {
             const value = prevState[typeFeedback];
@@ -64,11 +61,7 @@ export default class Feedback extends Component {
                     />}
                 </Wrapper>
                     </div>
-                    
-                
-            
-           
-            
+                      
             
         )
     }

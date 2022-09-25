@@ -18,5 +18,6 @@ export default function ActionsFeedback({leaveFeedback}) {
 }
 
 ActionsFeedback.propTypes = {
+  options: PropTypes.arrayOf(PropTypes.string.isRequired),
   leaveFeedback: PropTypes.func.isRequired,
 };

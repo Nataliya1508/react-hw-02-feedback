@@ -46,7 +46,7 @@ export default class Feedback extends Component {
             <div className={styles.sections}>
                 <Wrapper title="Please leave feedback">
         
-                    <ActionsFeedback leaveFeedback={this.leaveFeedback}/>
+                    <ActionsFeedback options={Object.keys(this.state)} leaveFeedback={this.leaveFeedback}/>
                 
                    
                 </Wrapper>
